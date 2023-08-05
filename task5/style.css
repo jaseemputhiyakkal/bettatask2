@@ -43,8 +43,9 @@ body {
 
 .container {
     width: calc(100vw);
-    height: calc(100vh - 82px);
+    height: calc(100vh - 75px);
     overflow: hidden;
+    /* display: flex; */
 }
 
 .sidebar {
@@ -135,7 +136,83 @@ nav img {
     display: flex;
     align-content: center;
 }
-
+.form-container{
+    margin-top: 15px;
+}
+.form-container label{
+    display: block;
+    margin-bottom: 10px;
+}
+input, input:focus, input:active, input:focus-visible, select, textarea{
+    border: 2px soild #ccc;
+    outline: none;
+    padding: 5px;
+    height: 25px;
+    color: #555;
+    width: 80%;
+}
+input:active, input:focus, input:focus-visible, textarea{
+    border-color: #a259ff;
+}
+.row-container{
+    margin: 15px;
+    height: 100%;
+    overflow:hidden;
+}
+.input-container{
+    width: 50%;
+    float: left;
+}
+.heading h2{
+    text-decoration: underline;
+}
+select{
+    border: 2px soild #ccc;
+    outline: none;
+    height: 25px;
+    width: 82%;
+    color: #555;
+}
+.wrapper{
+    display: flex !important;
+    align-items: center;
+    margin: 0;
+    width: 15%;
+    float: left;
+    height: 35%;
+    color: #555;
+}
+.wrapper input{
+    width: auto;
+}
+.check-wrapper{
+    width: auto !important;
+    margin-right: 15px;
+}
+.chinput-container{
+    width: 100%;
+}
+input[type='submit'],input[type='reset']{
+    width: auto;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    cursor:pointer
+}
+input[type='submit']{
+    background-color: #3cb989;
+}
+input[type='reset']{
+    background-color: #ff7262;
+}
+.right
+{
+    text-align: right;
+    padding-right: 10%;
+}
+.red-text{
+    color: red;
+}
 @media only screen and (max-width :767px) {
     .sidebar {
         display: none;

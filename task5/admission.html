@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/mstile-150x150.png">
+    <link rel="mask-icon" href="image/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="image/logo.png" alt="logo" />
+            <h3>One School</h2>
+        </div>
+        <div class="profile-container">
+            <img src="image/task3.jpg" alt="profile pic">
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <a href="index.html" class="flex">
+                    <img src="image/student.png" alt="">
+                    students
+                </a>
+                <a href="#" class="flex">
+                    <img src="image/staff.png" alt="staff">staff</a>
+                <a href="#" class="flex">
+                    <img src="image/exam.png" alt="exam">
+                    exams</a>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="heading">
+                <h2>student registration</h2>
+            </div>
+            <div class="form-container">
+                <form>
+                    <div class="row-container">
+                        <div class="input-container">
+                            <label for="first name">
+                                First name <span class="red-text">*</span>
+                            </label>
+                            <input type="text"
+                            name="First name"
+                            id="first name"
+                            placeholder="Enter your first name"
+                            value="John doe">
+                        </div>
+                        <div class="input-container">
+                            <label for="second name">
+                                second name <span class="red-text">*</span>
+                            </label>
+                            <input type="text"
+                            name="second name"
+                            id="second name"
+                            placeholder="Enter your second name"
+                            value="John doe">
+                        </div>
+                    </div>
+                    <div class="row-container">
+                        <div class="input-container">
+                            <label for="mobile">mobile
+                                <span class="red-text">*</span>
+                            </label>
+                            <input type="tel" 
+                            name="mobile"
+                            id="mobile"
+                            placeholder="enter your mobile">
+                        </div>
+                        <div class="input-container">
+                            <label for="email">
+                                Email <span class="red-text">*</span>
+                            </label>
+                            <input type="email"
+                            name="email"
+                            id="email"
+                            placeholder="enater your email address"
+                        </div>
+                    </div>
+                    <!-- <div class="row-container">
+                        <div class="input-container">
+                            <select name="branch" id="branch">
+                                <option value="Computer">computer</option>
+                            </select>
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+                    <div class="row-container">
+                        <div class="input-container">
+                            <label for="branch">branch</label>
+                            <select name="branch" id="branch">
+                                <option>select your Branch</option>
+                                <option value="computer">Computer science</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="B.com">B.com</option>
+                            </select>
+                        </div>
+                        <div class="input-container">
+                            <label for="hostel">Do you need hostel Facility</label>
+                            <label class="wrapper">
+                            <input type="radio" name="hostel" id="hostel" />
+                            Yes
+                            </label>
+                            <label class="wrapper">
+                                <input type="radio" name="hostel" id="hostel" />
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row-container">
+                        <div class="chinput-container">
+                            <label>Select Additional Subjects</label>
+                            <label class="wrapper check-wrapper">
+                                <input type="checkbox" name="Additional" value="CyberSecurity">
+                                CyberSecurity
+                            </label>
+                            <label class="wrapper check-wrapper">
+                                <input type="checkbox" name="Additional" value="ArtificialIntelligence" >
+                                ArtificialIntelligence
+                            </label>
+                            <label class="wrapper check-wrapper">
+                                <input type="checkbox" name="Additional" value="Blockchain">
+                                Blockchain
+                            </label>
+                            <label class="wrapper check-wrapper">
+                                <input type="checkbox" name="Additional" value="IoT">
+                                IoT
+                            </label>
+                            <label class="wrapper check-wrapper">
+                                <input type="checkbox" name="Additional" value="Robotics">
+                                Robotics
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row-container">
+                        <div class="input-container">
+                            <label>
+                                Permanent Address <span class="red-text">*</span>
+                            </label>
+                            <textarea cols="50"
+                            rows="10"
+                            placeholder="Enter your address"></textarea>
+                        </div>
+                    </div>
+                    <Div class="row-container right">
+                        <input type="reset" value="clear" />
+                        <input type="submit" value="submit" />
+                    </Div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
