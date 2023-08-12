@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+}
+.main_container{
+    background-color: black;
+    width: calc(100vw);
+    height: calc(100vh);
+    display: flex;
+    justify-content: space-between;
+}
+.login_container{
+ height:calc(100% - 60px);
+ padding: 15px;
+ width: calc(100% - 60px);
+
+}
+.login_container label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+.login_container input{
+    height: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+    display: block;
+}
+input[type='button']{
+    width: auto;
+    height: auto;
+    display: inline;!important
+}
+.login_container a{
+    margin-left: 15px;
+}
+.image_container{
+    background-color: black;
+    display: inline;
+    display: flex;
+    float: left;
+    width:calc(100% - 60px);
+}
